@@ -1,5 +1,4 @@
 {\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1043{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
-delete this line and open with wordpad.
 {\*\generator Riched20 10.0.22000}\viewkind4\uc1 
 \pard\sa200\sl276\slmult1\f0\fs22\lang19{\object\objemb{\*\objclass Package}\objw1605\objh1020{\*\objdata 
 01050000
